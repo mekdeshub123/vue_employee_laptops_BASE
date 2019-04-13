@@ -1,5 +1,6 @@
 var express = require('express')
 var Laptop = require('../models').Laptop
+var Sequelize = require('sequelize')
 
 var router = express.Router() 
 
