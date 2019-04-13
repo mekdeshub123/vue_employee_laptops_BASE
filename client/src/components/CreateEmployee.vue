@@ -20,14 +20,9 @@ export default {
     components: {
         EmployeeForm
     },
-    data() {
-        return {
-            name: '',     
-        }
-    },
     methods: {
         employeeFormSubmit(employee) {
-            this.$services.employees.addEmployee( employee ).then( data => {
+            this.$services.employees.addEmployee(employee).then( data => {
                 this.$router.push('/employees')
             })
         },

@@ -19,11 +19,6 @@ export default {
     components: {
         LaptopForm
     },
-    data() {
-        return {
-            // todo - data 
-        }
-    },
     methods:{
         // TODO handle form submit
         // TODO handle cancel 
