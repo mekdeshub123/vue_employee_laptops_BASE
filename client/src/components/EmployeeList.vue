@@ -3,9 +3,9 @@
 
   <h2>Employees</h2>
 
-<router-link to="/create_employee">
-  <button class="btn btn-secondary mt-2 mb-2">Create new employee</button>
-</router-link>
+  <router-link to="/create_employee">
+    <button class="btn btn-secondary mt-2 mb-2">Create new employee</button>
+  </router-link>
 
   <table class="table table-hover">
     <tr><th>id</th><th>Name</th><th>Edit</th></tr>
@@ -17,7 +17,6 @@
                 <img src="@/assets/edit.png">
             </router-link>
         </td>
-        
     </tr>
   </table>
   
