@@ -42,9 +42,7 @@ export default {
             // load data for laptop, and list of employees 
         },
         // TODO handle edit laptop info
-
-        // TODO handle cancel edit 
-        
+  
         // TODO handle assigning laptop to employee
 
         // TODO handle unassigning laptop
