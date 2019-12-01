@@ -1,6 +1,6 @@
 {
   "development": {
-    "storage": "laptops_development.sqlite3",
+    "storage": "database_development.sqlite3",
     "logging": true,
     "dialect": "sqlite"
   },
@@ -12,7 +12,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "use_env_vriable": "DATABASE_URL",
     "dialect": "postgres"
+    
   }
 }

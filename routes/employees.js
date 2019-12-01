@@ -61,8 +61,11 @@ router.delete('/:id', function(req, res, next){
     }).catch( err => next(err) )
 })
 
-
-// TODO get all laptops for employee
-
-    
+// get all laptops for employee
+router.get('/:id/laptops', function(req, res, next) {
+    Laptop.findAll({where: { employeeId: req.params.id}}).then( laptops => {
+        return res.json(laptops)
+    }).catch( err => next(err))
+})
+  
 module.exports = router 
