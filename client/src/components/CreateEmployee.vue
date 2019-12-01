@@ -21,11 +21,13 @@ export default {
         EmployeeForm
     },
     methods: {
+        //handles form sumit
         employeeFormSubmit(employee) {
-            this.$services.employees.addEmployee(employee).then( data => {
+            this.$services.employees.addEmployee(employee).then( () => {
                 this.$router.push('/employees')
             })
         },
+        //hndles cancel
         cancel() {
             this.$router.push('/employees')
         }

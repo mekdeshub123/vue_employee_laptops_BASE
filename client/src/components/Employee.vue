@@ -61,7 +61,7 @@ export default {
             })
         },
         employeeFormSubmit(employee) {
-            this.$services.employees.updateEmployee(employee).then( data => {
+            this.$services.employees.updateEmployee(employee).then(() => {
                 this.$router.push('/employees')
             })
         },

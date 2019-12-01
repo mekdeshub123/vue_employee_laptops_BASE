@@ -14,7 +14,10 @@
 
 <script>
 export default {
-  name: 'Navigation'
+  name: 'Navigation',
+  props: {
+    Navigation: Object
+  }
 }
 </script>
 
